@@ -6,9 +6,16 @@ using System.Web;
 namespace InClass20241121_IS3050_001
 {
     public class HelloWorld
-        public static void SayHello()
     {
-        Console.WriteLine("Hello from HelloWorld.SayHello()");
+        public static void SayHello()
+        {
+            Console.WriteLine("Hello from HelloWorld.SayHello()");
 
+        }
+
+        public static void Method2()
+        { 
+            Console.WriteLine("Hello again from person A");
+        }
     }
 }
